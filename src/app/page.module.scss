@@ -1,1 +1,11 @@
-.page {}
+.page {
+
+	.header {
+		padding: 12px 55px;
+		background-color: bisque;
+	}
+
+	.trigger {
+		cursor: pointer;
+	}
+}
