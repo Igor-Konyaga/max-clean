@@ -1,0 +1,23 @@
+ .list {
+ 	display: flex;
+ 	align-items: center;
+ 	column-gap: 40px;
+
+ 	.item,
+ 	.link {
+ 		padding: 20px 0;
+ 		color: var(--text);
+ 		font-size: 20px;
+ 		font-weight: 500;
+ 	}
+
+ 	.link {
+ 		transition: color 0.3s ease;
+
+ 		&:hover,
+ 		&:focus {
+ 			color: var(--hover);
+ 			transition: color 0.3s ease;
+ 		}
+ 	}
+ }
