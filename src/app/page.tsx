@@ -1,7 +1,7 @@
 import { Home } from '@/pages/ui/Home/ui/Home';
 
 function HomePage() {
-  return <Home />;
+  return null;
 }
 
 export default HomePage;
