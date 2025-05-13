@@ -25,7 +25,7 @@ const Icon: FC<IconProps> = ({
       aria-hidden="true"
       {...props}
     >
-      <use xlinkHref={`./icons/sprite.svg#${name}`} />
+      <use xlinkHref={`./icons/sprite.svg?v=1#${name}`} />
     </svg>
   );
 };
