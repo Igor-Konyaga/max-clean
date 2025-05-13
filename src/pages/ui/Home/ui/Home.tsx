@@ -1,11 +1,14 @@
 import { Header } from '@/widgets/ui/Header/ui/Header';
 import { FC } from 'react';
-import styles from './Home.module.scss';
+import { Hero } from '@/widgets/ui/Hero/ui/Hero';
 
 const Home: FC = () => {
   return (
-    <div className={styles.page}>
+    <div>
       <Header />
+      <main>
+        <Hero />
+      </main>
     </div>
   );
 };

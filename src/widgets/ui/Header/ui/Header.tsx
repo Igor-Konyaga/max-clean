@@ -1,10 +1,9 @@
 import { FC } from 'react';
 import styles from './Header.module.scss';
 import Link from 'next/link';
-import logo from '../../../../../public/Logo.svg';
-import Image from 'next/image';
 import { NavLinks } from './NavLinks/ui/NavLinks';
 import { Container } from '@/shared/ui/Container/ui/Container';
+import { Icon } from '@/shared/ui/Icon/ui/Icon';
 
 const Header: FC = () => {
   return (
@@ -12,7 +11,7 @@ const Header: FC = () => {
       <Container>
         <div className={styles.wrapperContent}>
           <Link className={styles.logo} href="/">
-            <Image width={140} height={70} src={logo} alt="logo" />
+            <Icon name="logo" width={140} height={70} />
           </Link>
 
           <NavLinks />

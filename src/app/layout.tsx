@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ua" className={montserrat.className}>
       <body>
-        <Theme>{children}</Theme>
+        <Theme className="mainWrapper">{children}</Theme>
       </body>
     </html>
   );
