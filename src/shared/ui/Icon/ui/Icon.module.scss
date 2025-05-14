@@ -1,7 +1,9 @@
 .icon {
-	.icon {
-		display: inline-block;
-		vertical-align: middle;
-		fill: currentColor;
+	color: var(--accent-main);
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: var(--hover);
+		transition: color 0.3s ease;
 	}
 }

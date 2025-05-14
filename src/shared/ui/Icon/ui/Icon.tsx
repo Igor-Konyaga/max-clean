@@ -12,8 +12,8 @@ type IconProps = {
 
 const Icon: FC<IconProps> = ({
   name,
-  width = 24,
-  height = 24,
+  width = 60,
+  height = 60,
   className,
   ...props
 }) => {
@@ -22,7 +22,6 @@ const Icon: FC<IconProps> = ({
       className={clsx(styles.icon, className)}
       width={width}
       height={height}
-      aria-hidden="true"
       {...props}
     >
       <use xlinkHref={`./icons/sprite.svg?v=1#${name}`} />

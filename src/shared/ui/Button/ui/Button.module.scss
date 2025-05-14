@@ -1,0 +1,27 @@
+.button {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 440px;
+	padding: 16px 50px;
+	border-radius: 20px;
+
+	background-color: var(--accent-main);
+	color: var(--color-text-white);
+
+	transition: background-color 0.3s ease;
+
+	font-size: 28px;
+	font-weight: 600;
+
+	&:hover,
+	&:focus {
+		background-color: var(--hover);
+		transition: background-color 0.3s ease;
+	}
+
+	&:disabled {
+		background-color: var(--disabled);
+		cursor: auto;
+	}
+}
