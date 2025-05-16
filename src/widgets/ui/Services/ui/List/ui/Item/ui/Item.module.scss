@@ -1,0 +1,29 @@
+.item {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	.content {
+		flex: 1;
+	}
+
+	.wrapperImage {
+		flex: 1;
+
+		.image {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.evenItem {
+	flex-direction: row-reverse;
+}

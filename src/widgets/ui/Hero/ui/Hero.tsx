@@ -1,4 +1,3 @@
-import { Container } from '@/shared/ui/Container/ui/Container';
 import { FC } from 'react';
 import styles from './Hero.module.scss';
 import { Title } from '@/shared/ui/Title/ui/Title';
@@ -10,30 +9,28 @@ import Link from 'next/link';
 const Hero: FC = () => {
   return (
     <section>
-      <Container>
-        <div className={styles.content}>
-          <Title className={styles.title}>
-            <span className={styles.accent}>Чистота</span> без зусиль
-          </Title>
-          <Text className={styles.text}>Довірте хімчистку професіоналам </Text>
-          <ScrollToButton className={styles.button} targetId="contacts">
-            Замовити
-          </ScrollToButton>
-          <SocialLinks className={styles.socialLinks} />
+      <div className={styles.content}>
+        <Title className={styles.title}>
+          <span className={styles.accent}>Чистота</span> без зусиль
+        </Title>
+        <Text className={styles.text}>Довірте хімчистку професіоналам </Text>
+        <ScrollToButton className={styles.button} targetId="contacts">
+          Замовити
+        </ScrollToButton>
+        <SocialLinks className={styles.socialLinks} />
 
-          <div className={styles.address}>
-            <Link className={styles.link} href="tel:0999999999">
-              +380 96 0000 000
-            </Link>
-            <Link className={styles.link} href="tel:0999999999">
-              +380 96 0000 000
-            </Link>
-            <Link className={styles.link} href="">
-              м. Київ вул. шевченка 45
-            </Link>
-          </div>
+        <div className={styles.address}>
+          <Link className={styles.link} href="tel:0999999999">
+            +380 96 0000 000
+          </Link>
+          <Link className={styles.link} href="tel:0999999999">
+            +380 96 0000 000
+          </Link>
+          <Link className={styles.link} href="">
+            м. Київ вул. шевченка 45
+          </Link>
         </div>
-      </Container>
+      </div>
     </section>
   );
 };

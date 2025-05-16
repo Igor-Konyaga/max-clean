@@ -11,11 +11,7 @@
 		align-items: center;
 		justify-content: space-between;
 
-		.text {
-			word-break: break-word;
-			white-space: normal;
-			line-height: 1.5;
-
+		.description {
 			.accent {
 				font-weight: 500;
 				color: var(--accent-main);
