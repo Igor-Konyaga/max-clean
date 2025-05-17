@@ -1,0 +1,26 @@
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px;
+	border-bottom: 2px solid var(--accent-secondary);
+
+	.label {
+		font-size: 24px;
+		font-weight: 500;
+	}
+
+	.price {
+		font-size: 32px;
+		font-weight: 600;
+		color: var(--accent-main);
+	}
+}
+
+.itemFromEvenCard {
+	border-color: var(--accent-main);
+
+	.greenText {
+		color: var(--accent-secondary);
+	}
+}

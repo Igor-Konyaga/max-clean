@@ -13,6 +13,7 @@
 
 	--blue-light: #ECF6FD;
 	--blue-mint: #EDFBEE;
+	--blue-pastel: #D0E8F9;
 
 	--font-family-base: 'Montserrat', sans-serif;
 }
@@ -33,7 +34,7 @@ button {
 	border: none;
 	padding: 0;
 	margin: 0;
-	font: inherit;
+	font-family: var(--font-family-base);
 	color: inherit;
 	cursor: pointer;
 }

@@ -5,6 +5,7 @@ import { AboutUs } from '@/widgets/ui/AboutUs/ui/AboutUs';
 import { Advantages } from '@/widgets/ui/Advantages/ui/Advantages';
 import { Container } from '@/shared/ui/Container/ui/Container';
 import { Services } from '@/widgets/ui/Services/ui/Services';
+import { Price } from '@/widgets/ui/Price/ui/Price';
 
 const Home: FC = () => {
   return (
@@ -16,6 +17,7 @@ const Home: FC = () => {
           <AboutUs />
           <Advantages />
           <Services />
+          <Price />
         </Container>
       </main>
     </div>

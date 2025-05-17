@@ -1,0 +1,15 @@
+.priceListCard {
+	padding: 40px;
+	border-radius: 24px;
+	background-color: var(--blue-pastel);
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 26px;
+		font-weight: 600;
+	}
+}
+
+.evenCard {
+	background-color: var(--blue-mint);
+}

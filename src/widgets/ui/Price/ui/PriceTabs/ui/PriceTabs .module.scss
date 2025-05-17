@@ -1,0 +1,31 @@
+.priceTabs {
+
+	.list {
+		column-gap: 8px;
+
+		.trigger {
+			font-family: var(--font-family-base);
+			padding: 30px 40px;
+			font-size: 30px;
+			font-weight: 600;
+			line-height: 1.4;
+			cursor: pointer;
+
+			&::before {
+				background-color: var(--accent-main);
+			}
+
+			&:hover {
+				span {
+					background-color: transparent;
+				}
+			}
+
+			&[data-state='active'] {
+				span {
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
